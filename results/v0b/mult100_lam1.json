@@ -1,0 +1,104 @@
+{
+ "mult": 100.0,
+ "lam": "1",
+ "error": 0.1600858126471844,
+ "noise_floor": 0.041611909960517446,
+ "lumping_floor": 0.16658213484132534,
+ "ratio": 0.9610022875482483,
+ "firing_score": 0.007898330566148524,
+ "kept": 15,
+ "path": [
+  [
+   15,
+   0.04629095687508948
+  ]
+ ],
+ "ea_checks": [
+  {
+   "reaction": "R1",
+   "kept": true,
+   "Ea_true": 250.0,
+   "Ea_fit": 237.8,
+   "pass": true
+  },
+  {
+   "reaction": "R3",
+   "kept": false,
+   "Ea_true": 60.0,
+   "Ea_fit": NaN,
+   "pass": false
+  },
+  {
+   "reaction": "R4",
+   "kept": true,
+   "Ea_true": 120.0,
+   "Ea_fit": 151.4,
+   "pass": false
+  },
+  {
+   "reaction": "R5",
+   "kept": true,
+   "Ea_true": 150.0,
+   "Ea_fit": 152.6,
+   "pass": true
+  },
+  {
+   "reaction": "R9",
+   "kept": true,
+   "Ea_true": 0.0,
+   "Ea_fit": 11.6,
+   "pass": false
+  },
+  {
+   "reaction": "R10",
+   "kept": true,
+   "Ea_true": 50.0,
+   "Ea_fit": 25.4,
+   "pass": false
+  },
+  {
+   "reaction": "R11",
+   "kept": true,
+   "Ea_true": 60.0,
+   "Ea_fit": 60.7,
+   "pass": true
+  },
+  {
+   "reaction": "R13",
+   "kept": true,
+   "Ea_true": 300.0,
+   "Ea_fit": 278.6,
+   "pass": true
+  },
+  {
+   "reaction": "R15",
+   "kept": true,
+   "Ea_true": 0.0,
+   "Ea_fit": 7.1,
+   "pass": false
+  },
+  {
+   "reaction": "R18",
+   "kept": false,
+   "Ea_true": 60.0,
+   "Ea_fit": NaN,
+   "pass": false
+  },
+  {
+   "reaction": "R21",
+   "kept": false,
+   "Ea_true": 50.0,
+   "Ea_fit": NaN,
+   "pass": false
+  },
+  {
+   "reaction": "R26",
+   "kept": false,
+   "Ea_true": 60.0,
+   "Ea_fit": NaN,
+   "pass": false
+  }
+ ],
+ "pass": false,
+ "minutes": 6.5
+}

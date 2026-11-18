@@ -1,0 +1,6 @@
+{
+ "frozen_at": "2026-11-11T04:26:17",
+ "file": "experiments/round5_score_syn.py",
+ "sha256": "0a59cc48bfe52ddb68069e9bb3c935cedf3d87b9d266745020900eb9c1bb8b47",
+ "note": "per-kind H7' scorer for the C6 synthetic confirmation, written before any confirmation block was read"
+}

@@ -1,0 +1,55 @@
+{
+ "frozen_at": "2026-11-05T18:23:03",
+ "design": "design.greedy (round 1)",
+ "uncertainty": "re",
+ "flag_err": 0.6,
+ "flag_dom": 3.0,
+ "label_rms": 0.6931471805599453,
+ "design_targets": [
+  3200,
+  3300,
+  3400,
+  3500,
+  3600,
+  4000,
+  4500,
+  5000
+ ],
+ "H5": {
+  "coverage_min": 0.85,
+  "median_lo": 0.5,
+  "median_hi": 1.0
+ },
+ "H6": {
+  "near_best": 1.1,
+  "gain_over_worst": 0.9,
+  "cell_fraction": 0.75,
+  "half_vs_full_median": 1.25
+ },
+ "H7": {
+  "overall": 0.9,
+  "per_class": 0.8,
+  "min_per_class": 5
+ },
+ "synthetic": {
+  "possible": [
+   10000,
+   11000
+  ],
+  "impossible": [
+   11000,
+   12000
+  ],
+  "targets_by_block_of_250": [
+   3100,
+   3600,
+   4500,
+   5000
+  ]
+ },
+ "variants_tried": {
+  "C5": 7,
+  "C4": 10,
+  "C6": 44
+ }
+}

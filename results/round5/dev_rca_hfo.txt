@@ -1,0 +1,68 @@
+runs 20; species tracked per run 50-67; in every run 31; in at least one 92; species in the event tables 584
+tracked in every run: C2H2 C2H2O C3H2F3 C3H3F2 C4H3F5 C4H4F5 C4H5OF5 CF3 CH2F2 CH2O CH2OF2 CH3 CHF2 CHF3 CHO CHOF CHOF2 CO CO2 CO2F COF COF2 COF3 H H2 H2O H3O H3O2 HF HO O
+tracked in some runs (runs, species): H4O2:19 CHOF3:19 CH2F:19 C4H4OF5:19 O2:17 C3H4F2:17 CHO2:16 CH4:16 CH2:16 C2H3:16 C4H3F4:15 CH3F:14 C2H3O:14 H5O2:13 C2HO:13 H2O2:12 CHF:11 CF2:10 C3H4OF2:10 C3H3F3:10 HO2:8 C4H3OF5:8 F:7 C2HF3:6 C2H4:6 C2H3F2:6 CH4O:5 CH2OF:5 CH2O2:5 C3H3OF2:5 C3H2F2:5 C2H2OF2:5 C2H2F2:5 H2OF:4 CH3O:4 CH:4 C3H3OF3:4 C2H3F:4 C2H:4 CH3OF:3 C3H2OF3:3 C2HF:3 C2H2F3:3 H5O3:2 H4O3:2 CHO2F:2 C4H3O2F5:2 C2H2F:2 H6O3:1 H2F:1 CO2F3:1 CHO2F2:1 CF:1 C4H5F5:1 C3H2OF2:1 C3H2F5:1 C2HF2:1 C2H4O:1 C2H4F2:1 C2H2O2F3:1 C2F2:1
+   O2: tracked in 17 of 20 runs
+   H2O: tracked in 20 of 20 runs
+   C4H3F5: tracked in 20 of 20 runs
+   HF: tracked in 20 of 20 runs
+   CO2: tracked in 20 of 20 runs
+   CO: tracked in 20 of 20 runs
+   HO: tracked in 20 of 20 runs
+   H: tracked in 20 of 20 runs
+   O: tracked in 20 of 20 runs
+   H2: tracked in 20 of 20 runs
+   HO2: tracked in 8 of 20 runs
+   H2O2: tracked in 12 of 20 runs
+
+events (non-identity) 126065; distinct reactions 6126
+    62.2%  reactants tracked in every run (round-4 model)  (1346 distinct reactions)
+    13.5%  reactants tracked in this run  (1437 distinct reactions)
+    12.4%  a reactant never tracked  (2224 distinct reactions)
+    11.3%  reactants tracked in another run  (1452 distinct reactions)
+     0.5%  order > 3  (339 distinct reactions)
+
+balance over all (run, tracked species): sum |observed change - events' net change| / sum |observed change| = 0.007
+   3250K_O2_000 H2: observed +372, events +332
+   3250K_O2_000 H2O: observed -570, events -542
+   3250K_O2_000 O2: observed +8, events -18
+   3250K_O2_000 CH2O: observed +38, events +23
+   3250K_O2_000 HF: observed +271, events +282
+   3250K_O2_000 CO: observed +95, events +106
+   3250K_O2_000 COF: observed +17, events +10
+   3250K_O2_000 H: observed +16, events +22
+
+per round-4 species: gross production | consumption, share by reaction category (anchor / other round-4 / outside, tracked here / outside, untracked)
+          H2O  prod   33912:  44%   4%  27%  25%   | cons   43483:  65%   8%  24%   4%
+           HO  prod   29024:  65%   4%  12%  18%   | cons   26948:  86%   8%   4%   3%
+            H  prod   15315:  39%  10%  20%  31%   | cons   15083:  71%  16%   9%   4%
+         H3O2  prod   10793:  89%   1%   7%   3%   | cons   10773:  95%   5%   0%   0%
+           H2  prod   10503:  64%  12%   6%  17%   | cons    4772:  64%  21%  10%   5%
+           HF  prod    8167:   9%  13%  17%  62%   | cons    3694:  73%  19%   5%   3%
+         C2H2  prod    4998:  34%   1%  23%  42%   | cons    4731:  74%  15%   8%   2%
+          H3O  prod    4262:  72%   5%  19%   4%   | cons    4255:  86%  12%   2%   1%
+          CF3  prod    3963:  55%   6%   6%  33%   | cons    3837:  66%  19%  13%   3%
+         CHF2  prod    3937:  45%   7%  10%  38%   | cons    3721:  61%  23%  13%   3%
+            O  prod    3638:  53%   6%  19%  22%   | cons    3484:  74%  22%   3%   2%
+         COF2  prod    3619:  30%  15%  16%  39%   | cons    2476:  74%  18%   5%   3%
+       C4H3F5  prod    1538:  78%   6%   3%  13%   | cons    3889:  69%  23%   6%   1%
+        CHOF2  prod    2475:  38%  13%   5%  44%   | cons    2400:  74%  24%   2%   1%
+       C3H3F2  prod    2072:  70%   2%   4%  24%   | cons    2050:  76%  20%   3%   1%
+         COF3  prod    1962:   0%   9%  12%  79%   | cons    1866:  49%  46%   3%   1%
+         CHOF  prod    2047:  17%  14%  12%  57%   | cons    1341:  52%  40%   6%   2%
+          CH3  prod    1717:   0%   1%  46%  53%   | cons    1452:  50%  40%   8%   2%
+          CHO  prod    1612:  14%  18%  16%  52%   | cons    1390:  67%  26%   5%   2%
+       C3H2F3  prod    1403:  76%   2%   3%  18%   | cons    1396:  82%  15%   2%   1%
+         CH2O  prod    1617:  11%   7%  20%  62%   | cons    1056:  61%  35%   3%   1%
+           CO  prod    2089:  38%  19%  19%  24%   | cons     557:   0%  90%   8%   2%
+       CH2OF2  prod    1282:  28%  30%   9%  33%   | cons    1187:  55%  42%   2%   1%
+        C2H2O  prod    1208:   0%  12%  41%  47%   | cons    1117:  49%  45%   4%   2%
+        CH2F2  prod    1181:  48%  13%   4%  35%   | cons     895:  43%  54%   2%   1%
+      C4H5OF5  prod     973:  86%   2%   8%   4%   | cons     973:  70%  29%   1%   0%
+          COF  prod    1063:  33%  24%   4%  38%   | cons     853:  40%  50%   8%   2%
+         CO2F  prod     961:   0%  11%   9%  80%   | cons     718:  42%  53%   3%   2%
+          CO2  prod    1161:  12%  20%  35%  33%   | cons     336:  43%  43%  10%   4%
+         CHF3  prod     782:  38%  23%   2%  36%   | cons     655:  28%  69%   1%   2%
+       C4H4F5  prod     525:   0%  68%  16%  16%   | cons     525:   0%  99%   1%   0%
+
+round-4 species, all together: 44% of gross production and 13% of gross consumption run through reactions outside the round-4 model
+anchor products: 19% of product molecules are species outside the round-4 model (they leave it)

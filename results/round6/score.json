@@ -1,0 +1,27 @@
+{
+ "variant": "chord",
+ "MEA": {
+  "n": 89856,
+  "coverage": 0.9577657585470085,
+  "median_abs_z": 0.548045,
+  "pass": true
+ },
+ "synthetic lumped": {
+  "n": 23424,
+  "coverage": 0.934511612021858,
+  "median_abs_z": 0.7364,
+  "pass": true
+ },
+ "synthetic possible": {
+  "n": 23294,
+  "coverage": 0.9607194985833262,
+  "median_abs_z": 0.5947,
+  "pass": true
+ },
+ "synthetic impossible": {
+  "n": 23669,
+  "coverage": 0.9485825341163547,
+  "median_abs_z": 0.6226,
+  "pass": true
+ }
+}

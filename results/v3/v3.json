@@ -1,0 +1,7 @@
+{
+ "test_molecule": "CH4",
+ "reactions": 44,
+ "transfer_error": 0.5585959448280595,
+ "in_domain_error": 0.17955682785241345,
+ "H4": false
+}

@@ -1,0 +1,27 @@
+meets bar on 2/3  {'phi': False, 'noise': False, 'tau_max': False, 'g2_floor': None}:  HFO 0.955/0.99/0.951  butane 0.981/0.00/0.982  synthetic 0.908/0.23/0.971
+meets bar on 2/3  {'phi': False, 'noise': False, 'tau_max': False, 'g2_floor': 35.0}:  HFO 0.955/0.99/0.951  butane 0.981/0.00/0.982  synthetic 0.908/0.24/0.971
+meets bar on 2/3  {'phi': False, 'noise': False, 'tau_max': False, 'g2_floor': 70.0}:  HFO 0.950/0.99/0.947  butane 0.980/0.00/0.982  synthetic 0.905/0.25/0.966
+meets bar on 2/3  {'phi': False, 'noise': False, 'tau_max': True, 'g2_floor': None}:  HFO 0.923/0.99/0.917  butane 0.929/1.00/0.929  synthetic 0.854/0.81/0.858
+meets bar on 2/3  {'phi': False, 'noise': False, 'tau_max': True, 'g2_floor': 35.0}:  HFO 0.923/0.99/0.917  butane 0.929/1.00/0.929  synthetic 0.854/0.81/0.858
+meets bar on 2/3  {'phi': False, 'noise': False, 'tau_max': True, 'g2_floor': 70.0}:  HFO 0.923/0.99/0.917  butane 0.927/1.00/0.927  synthetic 0.850/0.81/0.854
+meets bar on 2/3  {'phi': False, 'noise': True, 'tau_max': False, 'g2_floor': None}:  HFO 0.954/0.99/0.951  butane 0.981/0.00/0.982  synthetic 0.909/0.24/0.970
+meets bar on 2/3  {'phi': False, 'noise': True, 'tau_max': False, 'g2_floor': 35.0}:  HFO 0.953/0.99/0.949  butane 0.981/0.00/0.982  synthetic 0.908/0.25/0.970
+meets bar on 2/3  {'phi': False, 'noise': True, 'tau_max': False, 'g2_floor': 70.0}:  HFO 0.950/0.99/0.946  butane 0.980/0.00/0.981  synthetic 0.906/0.26/0.965
+meets bar on 2/3  {'phi': False, 'noise': True, 'tau_max': True, 'g2_floor': None}:  HFO 0.923/0.99/0.917  butane 0.927/1.00/0.927  synthetic 0.850/0.81/0.854
+meets bar on 2/3  {'phi': False, 'noise': True, 'tau_max': True, 'g2_floor': 35.0}:  HFO 0.923/0.99/0.917  butane 0.927/1.00/0.927  synthetic 0.849/0.81/0.853
+meets bar on 2/3  {'phi': False, 'noise': True, 'tau_max': True, 'g2_floor': 70.0}:  HFO 0.923/0.99/0.917  butane 0.925/1.00/0.925  synthetic 0.846/0.81/0.850
+meets bar on 2/3  {'phi': True, 'noise': False, 'tau_max': False, 'g2_floor': None}:  HFO 0.948/0.99/0.944  butane 0.948/0.75/0.949  synthetic 0.897/0.78/0.908
+meets bar on 2/3  {'phi': True, 'noise': False, 'tau_max': False, 'g2_floor': 35.0}:  HFO 0.946/0.99/0.942  butane 0.948/0.75/0.949  synthetic 0.897/0.78/0.908
+meets bar on 2/3  {'phi': True, 'noise': False, 'tau_max': False, 'g2_floor': 70.0}:  HFO 0.945/0.99/0.941  butane 0.947/0.75/0.947  synthetic 0.892/0.78/0.902
+meets bar on 2/3  {'phi': True, 'noise': False, 'tau_max': True, 'g2_floor': None}:  HFO 0.923/0.99/0.917  butane 0.926/1.00/0.926  synthetic 0.852/0.81/0.855
+meets bar on 2/3  {'phi': True, 'noise': False, 'tau_max': True, 'g2_floor': 35.0}:  HFO 0.923/0.99/0.917  butane 0.926/1.00/0.926  synthetic 0.851/0.81/0.855
+meets bar on 2/3  {'phi': True, 'noise': False, 'tau_max': True, 'g2_floor': 70.0}:  HFO 0.922/0.99/0.916  butane 0.925/1.00/0.925  synthetic 0.848/0.81/0.851
+meets bar on 2/3  {'phi': True, 'noise': True, 'tau_max': False, 'g2_floor': None}:  HFO 0.946/0.99/0.942  butane 0.947/1.00/0.947  synthetic 0.893/0.79/0.902
+meets bar on 2/3  {'phi': True, 'noise': True, 'tau_max': False, 'g2_floor': 35.0}:  HFO 0.944/0.99/0.940  butane 0.947/1.00/0.947  synthetic 0.891/0.79/0.901
+meets bar on 2/3  {'phi': True, 'noise': True, 'tau_max': False, 'g2_floor': 70.0}:  HFO 0.943/0.99/0.939  butane 0.945/1.00/0.945  synthetic 0.888/0.79/0.897
+meets bar on 2/3  {'phi': True, 'noise': True, 'tau_max': True, 'g2_floor': None}:  HFO 0.922/0.99/0.916  butane 0.924/1.00/0.924  synthetic 0.848/0.82/0.851
+meets bar on 2/3  {'phi': True, 'noise': True, 'tau_max': True, 'g2_floor': 35.0}:  HFO 0.922/0.99/0.916  butane 0.923/1.00/0.923  synthetic 0.846/0.82/0.849
+meets bar on 2/3  {'phi': True, 'noise': True, 'tau_max': True, 'g2_floor': 70.0}:  HFO 0.921/0.99/0.915  butane 0.922/1.00/0.922  synthetic 0.844/0.82/0.846
+frozen score (C4 sd > 0.6, no single-T part) on HFO: 0.884/0.96/0.878 (untrustworthy 123)
+frozen score (C4 sd > 0.6, no single-T part) on butane: 0.913/1.00/0.912 (untrustworthy 4)
+frozen score (C4 sd > 0.6, no single-T part) on synthetic: 0.850/0.82/0.853 (untrustworthy 484)

@@ -1,0 +1,38 @@
+2500 K: error with line rates 0.2334, oracle rates 0.2108, per-run rates 0.1865; event-weighted RMS of (line - oracle) ln k 0.318
+2750 K: error with line rates 0.1671, oracle rates 0.1634, per-run rates 0.1523; event-weighted RMS of (line - oracle) ln k 0.228
+3000 K: error with line rates 0.1745, oracle rates 0.1758, per-run rates 0.1647; event-weighted RMS of (line - oracle) ln k 0.177
+3250 K: error with line rates 0.1709, oracle rates 0.1703, per-run rates 0.1644; event-weighted RMS of (line - oracle) ln k 0.188
+3500 K: error with line rates 0.2080, oracle rates 0.1976, per-run rates 0.1853; event-weighted RMS of (line - oracle) ln k 0.313
+
+per scored species, mean over folds and runs: error with line rates / oracle rates (sorted by the difference)
+       CH2OF2: 0.320 / 0.261
+       C3H2F3: 0.208 / 0.156
+         CHF3: 0.252 / 0.224
+          COF: 0.260 / 0.233
+        CH2F2: 0.241 / 0.215
+            O: 0.279 / 0.255
+        CHOF2: 0.242 / 0.228
+       C3H3F2: 0.166 / 0.155
+        C2H2O: 0.255 / 0.244
+         CHOF: 0.193 / 0.182
+         COF2: 0.156 / 0.149
+           HF: 0.115 / 0.110
+          CO2: 0.205 / 0.201
+      C4H5OF5: 0.125 / 0.121
+           CO: 0.186 / 0.184
+       C4H3F5: 0.065 / 0.063
+         H3O2: 0.131 / 0.131
+          CF3: 0.122 / 0.121
+       C4H4F5: 0.098 / 0.098
+          H3O: 0.116 / 0.117
+            H: 0.179 / 0.180
+           HO: 0.257 / 0.258
+           H2: 0.111 / 0.113
+          H2O: 0.069 / 0.071
+         CHF2: 0.117 / 0.119
+         C2H2: 0.225 / 0.228
+         CO2F: 0.250 / 0.254
+          CH3: 0.247 / 0.255
+          CHO: 0.257 / 0.268
+         COF3: 0.270 / 0.282
+         CH2O: 0.198 / 0.213

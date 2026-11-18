@@ -1,0 +1,180 @@
+{
+ "cases": [
+  {
+   "case": "C2H6 3300 K",
+   "bad": true,
+   "r1": true,
+   "single": 0.0,
+   "err": 0.4031614380163677,
+   "err_psi": 0.41138880900081576,
+   "dom": 5.5513228447107075
+  },
+  {
+   "case": "C2H6 4000 K",
+   "bad": true,
+   "r1": false,
+   "single": 0.0,
+   "err": 0.15030968644694126,
+   "err_psi": 0.1610288188605997,
+   "dom": 5.127370185782756
+  },
+  {
+   "case": "C8H18 3300 K",
+   "bad": false,
+   "r1": true,
+   "single": 0.0,
+   "err": 0.40624971853272834,
+   "err_psi": 0.41969106978737414,
+   "dom": 2.826190515418575
+  },
+  {
+   "case": "CH4 3600 K",
+   "bad": true,
+   "r1": false,
+   "single": 0.0,
+   "err": 0.28577572033285936,
+   "err_psi": 0.2980327647783109,
+   "dom": 3.8746826506332472
+  },
+  {
+   "case": "mix 3500 K",
+   "bad": false,
+   "r1": false,
+   "single": 0.0,
+   "err": 0.32252992873998276,
+   "err_psi": 0.3351032206890968,
+   "dom": 1.2077829108495801
+  },
+  {
+   "case": "CH4 3300 K (Part I)",
+   "bad": true,
+   "r1": false,
+   "single": 0.0,
+   "err": 0.4159179698932437,
+   "err_psi": 0.43068212966909597,
+   "dom": 4.103537048422223
+  }
+ ],
+ "rules": {
+  "r1": {
+   "sensitivity": 0.2,
+   "specificity": 0.9967845659163987,
+   "balanced": 0.5983922829581994,
+   "accuracy": 0.9841772151898734
+  },
+  "err0.5": {
+   "sensitivity": 0.2,
+   "specificity": 0.8585209003215434,
+   "balanced": 0.5292604501607717,
+   "accuracy": 0.8481012658227848
+  },
+  "err0.75": {
+   "sensitivity": 0.0,
+   "specificity": 0.9614147909967846,
+   "balanced": 0.4807073954983923,
+   "accuracy": 0.9462025316455697
+  },
+  "err1": {
+   "sensitivity": 0.0,
+   "specificity": 0.9935691318327974,
+   "balanced": 0.4967845659163987,
+   "accuracy": 0.9778481012658228
+  },
+  "err1.5": {
+   "sensitivity": 0.0,
+   "specificity": 0.9967845659163987,
+   "balanced": 0.4983922829581994,
+   "accuracy": 0.9810126582278481
+  },
+  "dom1": {
+   "sensitivity": 0.8,
+   "specificity": 0.9935691318327974,
+   "balanced": 0.8967845659163987,
+   "accuracy": 0.990506329113924
+  },
+  "dom1.5": {
+   "sensitivity": 0.8,
+   "specificity": 0.9967845659163987,
+   "balanced": 0.8983922829581994,
+   "accuracy": 0.9936708860759493
+  },
+  "dom2": {
+   "sensitivity": 0.8,
+   "specificity": 0.9967845659163987,
+   "balanced": 0.8983922829581994,
+   "accuracy": 0.9936708860759493
+  },
+  "err0.5|dom1": {
+   "sensitivity": 1.0,
+   "specificity": 0.8520900321543409,
+   "balanced": 0.9260450160771705,
+   "accuracy": 0.8544303797468354
+  },
+  "err0.5|dom1.5": {
+   "sensitivity": 1.0,
+   "specificity": 0.8553054662379421,
+   "balanced": 0.927652733118971,
+   "accuracy": 0.8575949367088608
+  },
+  "err0.5|dom2": {
+   "sensitivity": 1.0,
+   "specificity": 0.8553054662379421,
+   "balanced": 0.927652733118971,
+   "accuracy": 0.8575949367088608
+  },
+  "err0.75|dom1": {
+   "sensitivity": 0.8,
+   "specificity": 0.954983922829582,
+   "balanced": 0.877491961414791,
+   "accuracy": 0.9525316455696202
+  },
+  "err0.75|dom1.5": {
+   "sensitivity": 0.8,
+   "specificity": 0.9581993569131833,
+   "balanced": 0.8790996784565916,
+   "accuracy": 0.9556962025316456
+  },
+  "err0.75|dom2": {
+   "sensitivity": 0.8,
+   "specificity": 0.9581993569131833,
+   "balanced": 0.8790996784565916,
+   "accuracy": 0.9556962025316456
+  },
+  "err1|dom1": {
+   "sensitivity": 0.8,
+   "specificity": 0.9871382636655949,
+   "balanced": 0.8935691318327974,
+   "accuracy": 0.9841772151898734
+  },
+  "err1|dom1.5": {
+   "sensitivity": 0.8,
+   "specificity": 0.9903536977491961,
+   "balanced": 0.8951768488745981,
+   "accuracy": 0.9873417721518988
+  },
+  "err1|dom2": {
+   "sensitivity": 0.8,
+   "specificity": 0.9903536977491961,
+   "balanced": 0.8951768488745981,
+   "accuracy": 0.9873417721518988
+  },
+  "err1.5|dom1": {
+   "sensitivity": 0.8,
+   "specificity": 0.9903536977491961,
+   "balanced": 0.8951768488745981,
+   "accuracy": 0.9873417721518988
+  },
+  "err1.5|dom1.5": {
+   "sensitivity": 0.8,
+   "specificity": 0.9935691318327974,
+   "balanced": 0.8967845659163987,
+   "accuracy": 0.990506329113924
+  },
+  "err1.5|dom2": {
+   "sensitivity": 0.8,
+   "specificity": 0.9935691318327974,
+   "balanced": 0.8967845659163987,
+   "accuracy": 0.990506329113924
+  }
+ }
+}

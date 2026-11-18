@@ -1,0 +1,93 @@
+mean over (fold, run, species): counted 0.1742, fit nan, ratio nan
+species by the fit's gain (share of the total gain): counted / fit error, mean count
+         C2H2   nan%  0.163 / nan  mean count     22.7
+        C2H2O   nan%  0.270 / nan  mean count      5.0
+       C3H2F3   nan%  0.187 / nan  mean count      3.1
+       C3H3F2   nan%  0.150 / nan  mean count      5.4
+       C4H3F5   nan%  0.060 / nan  mean count      9.3
+       C4H4F5   nan%  0.094 / nan  mean count      0.2
+      C4H5OF5   nan%  0.118 / nan  mean count      0.0
+          CF3   nan%  0.103 / nan  mean count     21.7
+        CH2F2   nan%  0.239 / nan  mean count     12.4
+         CH2O   nan%  0.160 / nan  mean count     18.1
+       CH2OF2   nan%  0.333 / nan  mean count      5.1
+          CH3   nan%  0.220 / nan  mean count      9.4
+         CHF2   nan%  0.111 / nan  mean count     23.6
+         CHF3   nan%  0.297 / nan  mean count      6.4
+          CHO   nan%  0.218 / nan  mean count      8.8
+         CHOF   nan%  0.148 / nan  mean count     22.3
+        CHOF2   nan%  0.241 / nan  mean count      5.0
+           CO   nan%  0.123 / nan  mean count     41.0
+          CO2   nan%  0.139 / nan  mean count     16.2
+         CO2F   nan%  0.237 / nan  mean count      6.3
+          COF   nan%  0.270 / nan  mean count      7.7
+         COF2   nan%  0.132 / nan  mean count     39.5
+         COF3   nan%  0.228 / nan  mean count      6.5
+            H   nan%  0.178 / nan  mean count      9.4
+           H2   nan%  0.101 / nan  mean count    191.6
+          H2O   nan%  0.058 / nan  mean count    448.6
+          H3O   nan%  0.115 / nan  mean count      0.6
+         H3O2   nan%  0.127 / nan  mean count      1.9
+           HF   nan%  0.088 / nan  mean count    130.4
+           HO   nan%  0.238 / nan  mean count    113.1
+            O   nan%  0.257 / nan  mean count      7.7
+
+fold 2500 K: event-weighted RMS of the fit's ln k change at T* 2.23; largest changes:
+                 C2H2+H2O anchor d ln k -5.47  test events 291
+                   H2O+HO anchor d ln k -1.75  test events 2297
+                      2HO anchor d ln k -4.90  test events 288
+                   COF2+H anchor d ln k -9.97  test events 58
+                  CHF2+O2 anchor d ln k -10.78  test events 43
+               C3H3F2+CF3 anchor d ln k -6.15  test events 112
+                     H3O2 anchor d ln k -1.30  test events 2442
+                 CHF2+H2O anchor d ln k -3.66  test events 229
+                    CF3+H anchor d ln k -10.78  test events 19
+               C4H3F5+H2O anchor d ln k +2.66  test events 287
+
+fold 2750 K: event-weighted RMS of the fit's ln k change at T* 1.85; largest changes:
+                   H2O+HO anchor d ln k -1.76  test events 1976
+                   COF2+H anchor d ln k -7.46  test events 106
+                     H3O2 anchor d ln k -1.57  test events 2121
+                    CHOF2 anchor d ln k -4.31  test events 256
+                  CHF2+O2 anchor d ln k -7.12  test events 79
+                     H2OF anchor d ln k +3.48  test events 241
+                 C2H2+H2O anchor d ln k -2.97  test events 267
+                    CHOF3 anchor d ln k +3.64  test events 161
+                     H2O2 anchor d ln k +2.30  test events 394
+                   CHF2+H anchor d ln k -7.05  test events 35
+
+fold 3000 K: event-weighted RMS of the fit's ln k change at T* 1.20; largest changes:
+                      H3O anchor d ln k +2.53  test events 783
+                  CHF2+O2 anchor d ln k -5.93  test events 66
+                    H2+HO anchor d ln k +2.17  test events 456
+                    H+H2O anchor d ln k +1.28  test events 926
+                   CHF2+H anchor d ln k -3.86  test events 96
+                 C2H2+H2O anchor d ln k -2.60  test events 176
+                   COF2+H anchor d ln k -2.55  test events 162
+               C4H3F5+H2O anchor d ln k +2.24  test events 201
+                  COF2+HO anchor d ln k -2.75  test events 108
+                      2HO anchor d ln k -1.20  test events 429
+
+fold 3250 K: event-weighted RMS of the fit's ln k change at T* nan; largest changes:
+                     H3O2 anchor d ln k +nan  test events 1895
+                   H2O+HO anchor d ln k +nan  test events 1781
+                    H+H2O anchor d ln k +nan  test events 1152
+                      H3O anchor d ln k +nan  test events 923
+                     H2O2 anchor d ln k +nan  test events 714
+                      2HO anchor d ln k +nan  test events 674
+                    H2+HO anchor d ln k +nan  test events 611
+                   C4H3F5 anchor d ln k +nan  test events 392
+                    H2O+O anchor d ln k +nan  test events 506
+                     H4O2 anchor d ln k +nan  test events 292
+
+fold 3500 K: event-weighted RMS of the fit's ln k change at T* 1.29; largest changes:
+                   H2O+HO anchor d ln k -2.23  test events 1630
+                      H3O anchor d ln k +1.51  test events 1107
+                    H2+HO anchor d ln k +1.60  test events 823
+                     H3O2 anchor d ln k -1.03  test events 1763
+                   COF2+H anchor d ln k -2.50  test events 275
+                     CHO2 anchor d ln k +2.32  test events 242
+                  COF2+HO anchor d ln k -3.14  test events 131
+                     H2OF anchor d ln k +1.53  test events 511
+                     CO2F anchor d ln k -3.10  test events 109
+                     HO+O anchor d ln k -3.12  test events 99

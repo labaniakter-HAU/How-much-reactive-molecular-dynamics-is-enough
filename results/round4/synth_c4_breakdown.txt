@@ -1,0 +1,12 @@
+    lumped 3100: n  5936, coverage 0.835, median |z| 0.62; tau2 median 9.9; networks with coverage < 0.85: 43%; |z| > 4: 3.4%
+    lumped 3600: n  5919, coverage 0.861, median |z| 0.59; tau2 median 10.1; networks with coverage < 0.85: 39%; |z| > 4: 1.1%
+    lumped 4500: n  5914, coverage 0.708, median |z| 1.02; tau2 median 10.5; networks with coverage < 0.85: 64%; |z| > 4: 11.1%
+    lumped 5000: n  5734, coverage 0.744, median |z| 1.13; tau2 median 5.2; networks with coverage < 0.85: 59%; |z| > 4: 8.0%
+  possible 3100: n  5851, coverage 0.960, median |z| 0.59; tau2 median 0.0; networks with coverage < 0.85: 2%; |z| > 4: 0.0%
+  possible 3600: n  5886, coverage 0.949, median |z| 0.65; tau2 median 0.0; networks with coverage < 0.85: 4%; |z| > 4: 0.0%
+  possible 4500: n  5843, coverage 0.965, median |z| 0.54; tau2 median 0.0; networks with coverage < 0.85: 2%; |z| > 4: 0.0%
+  possible 5000: n  5782, coverage 0.976, median |z| 0.55; tau2 median 0.0; networks with coverage < 0.85: 0%; |z| > 4: 0.0%
+impossible 3100: n  5918, coverage 0.946, median |z| 0.63; tau2 median 0.0; networks with coverage < 0.85: 8%; |z| > 4: 0.1%
+impossible 3600: n  5951, coverage 0.930, median |z| 0.69; tau2 median 0.0; networks with coverage < 0.85: 8%; |z| > 4: 0.2%
+impossible 4500: n  5918, coverage 0.958, median |z| 0.57; tau2 median 0.0; networks with coverage < 0.85: 2%; |z| > 4: 0.1%
+impossible 5000: n  5830, coverage 0.960, median |z| 0.60; tau2 median 0.0; networks with coverage < 0.85: 5%; |z| > 4: 0.1%

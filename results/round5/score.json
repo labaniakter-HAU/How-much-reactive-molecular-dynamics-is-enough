@@ -1,0 +1,68 @@
+{
+ "C2": {
+  "firing_counted": 1.888063755629578,
+  "firing_fit": 51.286822204758096,
+  "firing_ratio": 0.036813818335081294,
+  "error_counted": 0.17164385521503497,
+  "error_fit": 0.16604723135357286,
+  "error_ratio": 1.0337050116153093,
+  "Ea_shift_median_per_fold": [
+   20.349190136272664,
+   24.50378196252305,
+   31.407527610466,
+   21.527792561733847,
+   19.931873278759724
+  ],
+  "pass": true
+ },
+ "C3": {
+  "error_compact": 0.17217233084014955,
+  "error_full": 0.17973200697008254,
+  "error_ratio": 0.9579391770148578,
+  "size_factor_min": 10.03825136612022,
+  "sizes": [
+   [
+    179,
+    1815
+   ],
+   [
+    182,
+    1975
+   ],
+   [
+    180,
+    1914
+   ],
+   [
+    183,
+    1837
+   ],
+   [
+    163,
+    1649
+   ]
+  ],
+  "pass": true
+ },
+ "C6 real": {
+  "targets": 1565,
+  "untrustworthy": 265,
+  "flagged": 366,
+  "accuracy": 0.9137380191693291,
+  "untrustworthy_caught": 0.9358490566037736,
+  "trustworthy_passed": 0.9092307692307692,
+  "testable": true,
+  "pass": true
+ },
+ "C6 synthetic": {
+  "targets": 57000,
+  "untrustworthy": 5484,
+  "flagged": 9937,
+  "accuracy": 0.8870701754385965,
+  "untrustworthy_caught": 0.8191101385849745,
+  "trustworthy_passed": 0.8943046820405312,
+  "testable": true,
+  "pass": false,
+  "networks": 3000
+ }
+}

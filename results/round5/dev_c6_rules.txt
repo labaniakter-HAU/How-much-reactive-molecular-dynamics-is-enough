@@ -1,0 +1,15 @@
+{'phi': True, 'noise': True}
+            HFO: mean rule 0.946/0.99/0.942   median rule 0.950/0.99/0.947   (untrustworthy 123)
+         butane: mean rule 0.947/1.00/0.947   median rule 0.963/0.75/0.963   (untrustworthy 4)
+     syn lumped: mean rule 0.737/0.79/0.720   median rule 0.761/0.76/0.763   (untrustworthy 467)
+   syn standard: mean rule 0.971/0.82/0.971   median rule 0.975/0.82/0.975   (untrustworthy 17)
+{'phi': True, 'noise': False}
+            HFO: mean rule 0.948/0.99/0.944   median rule 0.950/0.99/0.947   (untrustworthy 123)
+         butane: mean rule 0.948/0.75/0.949   median rule 0.966/0.75/0.967   (untrustworthy 4)
+     syn lumped: mean rule 0.746/0.78/0.735   median rule 0.768/0.75/0.774   (untrustworthy 467)
+   syn standard: mean rule 0.973/0.82/0.974   median rule 0.977/0.82/0.977   (untrustworthy 17)
+{'phi': False, 'noise': True}
+            HFO: mean rule 0.954/0.99/0.951   median rule 0.956/0.99/0.953   (untrustworthy 123)
+         butane: mean rule 0.981/0.00/0.982   median rule 0.981/0.00/0.982   (untrustworthy 4)
+     syn lumped: mean rule 0.772/0.23/0.948   median rule 0.775/0.20/0.962   (untrustworthy 467)
+   syn standard: mean rule 0.977/0.53/0.979   median rule 0.978/0.47/0.981   (untrustworthy 17)

@@ -1,0 +1,164 @@
+{
+ "full": {
+  "reactions": 45818,
+  "flags": [
+   [
+    false,
+    true
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    true
+   ],
+   [
+    false,
+    true
+   ],
+   [
+    false,
+    true
+   ]
+  ],
+  "flagged": true,
+  "single_temperature_reactions": 0.854293072591558
+ },
+ "top 44 by events": {
+  "reactions": 44,
+  "flags": [
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ]
+  ],
+  "flagged": false,
+  "single_temperature_reactions": 0.0
+ },
+ "top 300 by events": {
+  "reactions": 300,
+  "flags": [
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ]
+  ],
+  "flagged": false,
+  "single_temperature_reactions": 0.0
+ },
+ "top 1000 by events": {
+  "reactions": 1000,
+  "flags": [
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ]
+  ],
+  "flagged": false,
+  "single_temperature_reactions": 0.0
+ },
+ "top 3000 by events": {
+  "reactions": 3000,
+  "flags": [
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ]
+  ],
+  "flagged": false,
+  "single_temperature_reactions": 0.029333333333333333
+ },
+ "window 0.5": {
+  "reactions": 16547,
+  "flags": [
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ],
+   [
+    false,
+    false
+   ]
+  ],
+  "flagged": false,
+  "single_temperature_reactions": 0.7465401583368586
+ }
+}

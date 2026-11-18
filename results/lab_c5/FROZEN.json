@@ -1,0 +1,36 @@
+{
+ "frozen_at": "2026-11-10T07:53:12",
+ "test": "C5 on the lab's HFO/MEA runs, one shot (design section 14)",
+ "data_manifest": "data/lab/hfo_mea_files.txt",
+ "data_sha256": "f13e0af9ce0647d44db01a8c2dd336111e4698dbc4df3313733268202b3762f9",
+ "code": [
+  "design.py",
+  "lab.py",
+  "c5_lab.py"
+ ],
+ "code_sha256": "9e5fd000ea164f6fcf2cdd8b2003ca69ed91435431dedea2f086256e5697c65a",
+ "design": "design.anchored, unchanged from round 3 (priors gamma 70, s2 0.007)",
+ "menu": "16 whole runs at the other four temperatures (250 atm, O2 0/50/100/150)",
+ "pilot": "O2 = 0 run at the hottest menu temperature, counted in the budget",
+ "budgets_runs": [
+  2,
+  4,
+  8
+ ],
+ "anchors": "fit.anchors rule on pooled menu events: 95 % coverage, at most 80",
+ "random": "median of 100 random campaigns; rng int(T*) for HFO, int(T*) + 1 for MEA",
+ "H6": {
+  "near_best": 1.1,
+  "gain_over_worst": 0.9,
+  "cell_fraction": 0.75,
+  "half_vs_full_median": 1.25
+ },
+ "cells": 30,
+ "verdict": "PASS on the 30 pooled cells: C5 confirmed on real data never used in development. FAIL: reported, no redesign on these data; round-3 design stays adopted",
+ "descriptive": [
+  "each chemistry alone",
+  "unimolecular anchors only",
+  "round-2 design"
+ ],
+ "weak_spot_stated_before": "2-run budget at T* = 3250 and 3500 K: anchored's campaign has one temperature and equals hot-only (4 cells)"
+}

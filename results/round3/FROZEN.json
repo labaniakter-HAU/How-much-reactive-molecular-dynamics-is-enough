@@ -1,0 +1,62 @@
+{
+ "frozen_at": "2026-11-09T23:51:19",
+ "design": "design.anchored: nearest complete run first, then design.adaptive(common_window=True)",
+ "priors": {
+  "GAMMA_PRIOR": 70.0,
+  "S2_PRIOR": 0.007
+ },
+ "lumped_generator": {
+  "LUMPED_DE": [
+   160.0,
+   375.0
+  ],
+  "LUMPED_TC": [
+   3300.0,
+   4800.0
+  ]
+ },
+ "variants_tried": [
+  "bias8",
+  "seq8",
+  "seq_est",
+  "nearest",
+  "curv35",
+  "curv70",
+  "curv140",
+  "adapt",
+  "static_full",
+  "curv70_full",
+  "adapt_full",
+  "nearest_full",
+  "adapt2",
+  "anchored"
+ ],
+ "dev_result": "anchored is the only variant passing H6' on all four development sets (real, lumped, possible, impossible)",
+ "H6": {
+  "near_best": 1.1,
+  "gain_over_worst": 0.9,
+  "cell_fraction": 0.75,
+  "half_vs_full_median": 1.25
+ },
+ "confirmation": {
+  "lumped": [
+   21000,
+   22000
+  ],
+  "possible": [
+   22000,
+   23000
+  ],
+  "impossible": [
+   23000,
+   24000
+  ],
+  "targets_by_block_of_250": [
+   3100,
+   3600,
+   4500,
+   5000
+  ]
+ },
+ "no_harm": "adopted only if H6' passes on the lumped set and on the standard set (possible + impossible); C4 and C6 untouched"
+}

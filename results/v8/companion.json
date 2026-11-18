@@ -1,0 +1,66 @@
+{
+ "reactions": 44,
+ "in_domain_error": 0.17955682785241345,
+ "targets": {
+  "C2H6 3300 K": {
+   "flag_channel": true,
+   "flag_flux": false,
+   "flagged": true,
+   "start": "C2 250",
+   "error": 0.4515901361330208,
+   "single_run_noise": 0.13768142199511937,
+   "untrustworthy": true,
+   "H4_rule_pass": false
+  },
+  "C2H6 4000 K": {
+   "flag_channel": false,
+   "flag_flux": false,
+   "flagged": false,
+   "start": "CH4 3, H 1, C2 240, C3_C4 6, radical_small 1",
+   "error": 0.2741494817642362,
+   "single_run_noise": 0.13136856082610363,
+   "untrustworthy": true,
+   "H4_rule_pass": true
+  },
+  "C8H18 3300 K": {
+   "flag_channel": true,
+   "flag_flux": false,
+   "flagged": true,
+   "start": "H2 2, C5_C10 288",
+   "error": 0.23407584746731666,
+   "single_run_noise": 0.1350372318276588,
+   "untrustworthy": false,
+   "H4_rule_pass": true
+  },
+  "CH4 3600 K": {
+   "flag_channel": false,
+   "flag_flux": false,
+   "flagged": false,
+   "start": "CH4 160",
+   "error": 0.5823002090400483,
+   "single_run_noise": 0.12155197502643181,
+   "untrustworthy": true,
+   "H4_rule_pass": false
+  },
+  "mix 3500 K": {
+   "flag_channel": false,
+   "flag_flux": false,
+   "flagged": false,
+   "start": "CH4 43, H2 126, H 7, C2 34, C2_rad 2, C3_C4 16, C3_C4_rad 4, C5_C10 50, C5_C10_rad 7, C11plus 83, radical_small 1",
+   "error": 0.26742125171924563,
+   "single_run_noise": 0.14894445622401994,
+   "untrustworthy": false,
+   "H4_rule_pass": true
+  }
+ },
+ "H7_primary": {
+  "targets": 315,
+  "untrustworthy": 3,
+  "flagged": 2,
+  "accuracy": 0.9904761904761905,
+  "accuracy_untrustworthy": 0.3333333333333333,
+  "accuracy_trustworthy": 0.9967948717948718,
+  "testable": false,
+  "H7": null
+ }
+}

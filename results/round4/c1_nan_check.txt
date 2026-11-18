@@ -1,0 +1,13 @@
+HFO 2500: resamples 100, fits with non-finite E_a 0, non-finite final loss 0, |E_a| > 2000 kJ/mol in 0 more
+HFO 2750: resamples 100, fits with non-finite E_a 3, non-finite final loss 3, |E_a| > 2000 kJ/mol in 0 more
+HFO 3000: resamples 100, fits with non-finite E_a 2, non-finite final loss 2, |E_a| > 2000 kJ/mol in 0 more
+HFO 3250: resamples 100, fits with non-finite E_a 0, non-finite final loss 0, |E_a| > 2000 kJ/mol in 0 more
+HFO 3500: resamples 100, fits with non-finite E_a 3, non-finite final loss 3, |E_a| > 2000 kJ/mol in 0 more
+   HFO: counted 26.5, fit (finite fits only) 64.5 kJ/mol, ratio 0.411
+MEA 2500: resamples 100, fits with non-finite E_a 0, non-finite final loss 0, |E_a| > 2000 kJ/mol in 0 more
+MEA 2750: resamples 100, fits with non-finite E_a 0, non-finite final loss 0, |E_a| > 2000 kJ/mol in 0 more
+MEA 3000: resamples 100, fits with non-finite E_a 0, non-finite final loss 0, |E_a| > 2000 kJ/mol in 0 more
+MEA 3250: resamples 100, fits with non-finite E_a 0, non-finite final loss 0, |E_a| > 2000 kJ/mol in 0 more
+MEA 3500: resamples 100, fits with non-finite E_a 0, non-finite final loss 0, |E_a| > 2000 kJ/mol in 0 more
+   MEA: counted 35.3, fit (finite fits only) 173.9 kJ/mol, ratio 0.203
+pooled, finite fits only: counted 28.4, fit 87.2 kJ/mol, ratio 0.325

@@ -1,0 +1,60 @@
+{
+ "frozen_at": "2026-11-05T18:23:03",
+ "real": {
+  "H5": {
+   "n": 194361,
+   "coverage": 0.9359490844356635,
+   "median_abs_z": 0.5503,
+   "pass": true
+  },
+  "H6": {
+   "cells": 24,
+   "near_best_fraction": 0.4166666666666667,
+   "gain_fraction": 0.7083333333333334,
+   "half_vs_full_median": 1.1287032054271693,
+   "pass": false
+  },
+  "H7": {
+   "targets": 2481,
+   "untrustworthy": 4,
+   "flagged": 220,
+   "accuracy": 0.9129383313180169,
+   "untrustworthy_caught": 1.0,
+   "trustworthy_passed": 0.912797739200646,
+   "testable": false,
+   "pass": null
+  }
+ },
+ "synthetic": {
+  "H5_possible": {
+   "n": 23277,
+   "coverage": 0.9626670103535679,
+   "median_abs_z": 0.5836,
+   "pass": true
+  },
+  "H5_impossible": {
+   "n": 23518,
+   "coverage": 0.9457436856875585,
+   "median_abs_z": 0.62295,
+   "pass": true
+  },
+  "H6": {
+   "cells": 12,
+   "near_best_fraction": 1.0,
+   "gain_fraction": 0.8333333333333334,
+   "half_vs_full_median": 1.1049506107846896,
+   "pass": true
+  },
+  "H7": {
+   "targets": 38000,
+   "untrustworthy": 173,
+   "flagged": 1759,
+   "accuracy": 0.9566315789473684,
+   "untrustworthy_caught": 0.8208092485549133,
+   "trustworthy_passed": 0.9572527559679594,
+   "testable": true,
+   "pass": true
+  },
+  "networks": 2000
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "frozen_at": "2026-11-11T03:35:30",
+ "stage": "c2c3",
+ "test": "Round 5 stage 1 (design section 16): revised counted model for C2 and C3, one shot on the 5 MEA folds of round 4",
+ "data_manifest": "data/lab/hfo_mea_files.txt",
+ "data_sha256": "f13e0af9ce0647d44db01a8c2dd336111e4698dbc4df3313733268202b3762f9",
+ "code": [
+  "src\\species.py",
+  "src\\design.py",
+  "src\\lab.py",
+  "src\\fit.py",
+  "src\\kinetics.py",
+  "src\\integrate.py",
+  "src\\metrics.py",
+  "src\\data.py",
+  "experiments\\round5_confirm.py",
+  "experiments\\c5_lab.py",
+  "src\\closure.py",
+  "experiments\\round5_dev_c2.py"
+ ],
+ "code_sha256": "ff2be77b391ea3ab7edaf432a7a72fec725128d2d88b3e6185306ea44a630b41",
+ "model": {
+  "min_temps": 1,
+  "anchors": 160,
+  "coverage": 0.95,
+  "absorb": true,
+  "present": 0.9,
+  "by_T": true,
+  "volume": true,
+  "N_REF": 1000.0,
+  "t0": 1.0,
+  "fit_rounds": 5,
+  "c3_size_factor": 10
+ },
+ "bars": {
+  "C2_firing_ratio": 0.9,
+  "C2_error_ratio": 1.1,
+  "C3_error_ratio": 1.5,
+  "C3_size_factor": 10.0
+ },
+ "workers": 3,
+ "development_HFO": {
+  "H2b_ratio": 1.047,
+  "H2a_ratio": 0.086,
+  "H3_ratio": 0.964,
+  "size_factor_min": 14.4
+ }
+}

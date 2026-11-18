@@ -1,0 +1,99 @@
+{
+ "frozen_at": "2026-11-11T04:25:35",
+ "stage": "c6",
+ "test": "Round 5 stage 2 (design section 16): revised foresight flag for C6, one shot on the 5 MEA folds of round 4 (C5's campaigns) and on synthetic seeds 40000-42999",
+ "data_manifest": "data/lab/hfo_mea_files.txt",
+ "data_sha256": "f13e0af9ce0647d44db01a8c2dd336111e4698dbc4df3313733268202b3762f9",
+ "code": [
+  "src\\species.py",
+  "src\\design.py",
+  "src\\lab.py",
+  "src\\fit.py",
+  "src\\kinetics.py",
+  "src\\integrate.py",
+  "src\\metrics.py",
+  "src\\data.py",
+  "experiments\\round5_confirm.py",
+  "experiments\\c5_lab.py",
+  "src\\foresight.py",
+  "experiments\\round5_flag.py",
+  "experiments\\round4_lab.py",
+  "experiments\\round2_confirm.py",
+  "experiments\\round2_score.py"
+ ],
+ "code_sha256": "fd2dd3a9c989ad275e95a7b6a70461abf577efd4d2058c0be3aadf0b1a4eb4d3",
+ "synthetic_code": [
+  "src\\synthetic.py",
+  "src\\design.py",
+  "src\\fit.py",
+  "src\\species.py",
+  "src\\foresight.py",
+  "src\\integrate.py",
+  "src\\kinetics.py",
+  "src\\data.py",
+  "experiments\\round5_flag.py",
+  "experiments\\round2_synthetic.py",
+  "experiments\\v0b_reduction.py",
+  "experiments\\v0c_synthetic.py"
+ ],
+ "synthetic_code_sha256": "1199927159cb8c86be995a095c26906149927aa7cb80ae2eadba0afe2329d0da",
+ "flag": {
+  "B": 10.0,
+  "phi": true,
+  "noise": true,
+  "cut": "ln 2",
+  "dom": 3.0
+ },
+ "label": "event-weighted RMS of the frozen C4 prediction (real: against counted ln k at T*; synthetic: against true ln k) > ln 2",
+ "bars": {
+  "C6": {
+   "overall": 0.9,
+   "per_class": 0.8,
+   "min_per_class": 5
+  }
+ },
+ "synthetic": {
+  "lumped": [
+   40000,
+   41000
+  ],
+  "possible": [
+   41000,
+   42000
+  ],
+  "impossible": [
+   42000,
+   43000
+  ],
+  "targets_by_block_of_250": [
+   3100,
+   3600,
+   4500,
+   5000
+  ],
+  "bar": "H7' on each kind separately; the lumped kind is expected to fail (development accuracy ~0.74)"
+ },
+ "workers": 5,
+ "development": {
+  "HFO": [
+   0.946,
+   0.99,
+   0.942
+  ],
+  "butane": [
+   0.947,
+   1.0,
+   0.947
+  ],
+  "synthetic standard kinds": [
+   0.971,
+   0.82,
+   0.971
+  ],
+  "synthetic lumped": [
+   0.737,
+   0.79,
+   0.72
+  ]
+ }
+}

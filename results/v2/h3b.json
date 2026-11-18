@@ -1,0 +1,15 @@
+{
+ "split": {
+  "fit_T": "4500,5000",
+  "select_T": "4000",
+  "test_T": "3100,3200,3300,3400,3500"
+ },
+ "baseline_errors": {
+  "single-step Arrhenius": 0.2543104990006559,
+  "XGBoost": 0.32676740357617556
+ },
+ "single_run_noise": 0.14139256705661948,
+ "compact_error": 0.17955682785241345,
+ "excess_ratio": 0.33798228623872306,
+ "H3b": true
+}

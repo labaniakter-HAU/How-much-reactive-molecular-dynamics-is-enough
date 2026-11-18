@@ -1,0 +1,5 @@
+2500 K in-sample: 160 anchors, closure on: 0.2123; 160 anchors, closure off: 0.3774; 554 anchors, closure on: 0.1991; 554 anchors, closure off: 0.3881
+2750 K in-sample: 160 anchors, closure on: 0.1597; 160 anchors, closure off: 0.3691; 591 anchors, closure on: 0.1489; 591 anchors, closure off: 0.3860
+3000 K in-sample: 160 anchors, closure on: 0.1543; 160 anchors, closure off: 0.3544; 689 anchors, closure on: 0.1435; 689 anchors, closure off: 0.3775
+3250 K in-sample: 160 anchors, closure on: 0.1495; 160 anchors, closure off: 0.3119; 720 anchors, closure on: 0.1390; 720 anchors, closure off: 0.3391
+3500 K in-sample: 160 anchors, closure on: 0.1744; 160 anchors, closure off: 0.2976; 959 anchors, closure on: 0.1535; 959 anchors, closure off: 0.3381

@@ -1,0 +1,38 @@
+{
+ "lumped": {
+  "networks": 1000,
+  "near_best_fraction": 0.75,
+  "gain_fraction": 1.0,
+  "half_vs_full_median": 0.8060442729681903,
+  "pass": true
+ },
+ "standard": {
+  "networks": 2000,
+  "near_best_fraction": 0.9166666666666666,
+  "gain_fraction": 0.8333333333333334,
+  "half_vs_full_median": 1.0822890465504016,
+  "pass": true
+ },
+ "possible (descriptive)": {
+  "networks": 1000,
+  "near_best_fraction": 0.9166666666666666,
+  "gain_fraction": 0.8333333333333334,
+  "half_vs_full_median": 1.1103405714100365,
+  "pass": true
+ },
+ "impossible (descriptive)": {
+  "networks": 1000,
+  "near_best_fraction": 0.9166666666666666,
+  "gain_fraction": 0.9166666666666666,
+  "half_vs_full_median": 1.0498882564108951,
+  "pass": true
+ },
+ "round-2 design on lumped (descriptive)": {
+  "networks": 1000,
+  "near_best_fraction": 0.5833333333333334,
+  "gain_fraction": 0.75,
+  "half_vs_full_median": 0.8877623435081885,
+  "pass": false
+ },
+ "adopted": true
+}

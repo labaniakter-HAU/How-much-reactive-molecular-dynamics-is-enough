@@ -1,0 +1,165 @@
+{
+ "HFO": {
+  "campaigns": 1565,
+  "round 5": {
+   "targets": 1565,
+   "untrustworthy": 123,
+   "flagged": 206,
+   "accuracy": 0.9456869009584664,
+   "untrustworthy_caught": 0.991869918699187,
+   "trustworthy_passed": 0.941747572815534,
+   "testable": true,
+   "pass": true
+  },
+  "round 7": {
+   "targets": 1565,
+   "untrustworthy": 123,
+   "flagged": 206,
+   "accuracy": 0.9456869009584664,
+   "untrustworthy_caught": 0.991869918699187,
+   "trustworthy_passed": 0.941747572815534,
+   "testable": true,
+   "pass": true
+  }
+ },
+ "butane": {
+  "campaigns": 2790,
+  "round 5": {
+   "targets": 2790,
+   "untrustworthy": 4,
+   "flagged": 152,
+   "accuracy": 0.9469534050179211,
+   "untrustworthy_caught": 1.0,
+   "trustworthy_passed": 0.9468772433596554,
+   "testable": false,
+   "pass": null
+  },
+  "round 7": {
+   "targets": 2790,
+   "untrustworthy": 4,
+   "flagged": 195,
+   "accuracy": 0.9315412186379929,
+   "untrustworthy_caught": 1.0,
+   "trustworthy_passed": 0.9314429289303661,
+   "testable": false,
+   "pass": null
+  }
+ },
+ "MEA": {
+  "campaigns": 1565,
+  "round 5": {
+   "targets": 1565,
+   "untrustworthy": 265,
+   "flagged": 366,
+   "accuracy": 0.9137380191693291,
+   "untrustworthy_caught": 0.9358490566037736,
+   "trustworthy_passed": 0.9092307692307692,
+   "testable": true,
+   "pass": true
+  },
+  "round 7": {
+   "targets": 1565,
+   "untrustworthy": 265,
+   "flagged": 370,
+   "accuracy": 0.9111821086261981,
+   "untrustworthy_caught": 0.9358490566037736,
+   "trustworthy_passed": 0.9061538461538462,
+   "testable": true,
+   "pass": true
+  }
+ },
+ "synthetic lumped": {
+  "campaigns": 1900,
+  "round 5": {
+   "targets": 1900,
+   "untrustworthy": 467,
+   "flagged": 769,
+   "accuracy": 0.7368421052631579,
+   "untrustworthy_caught": 0.7880085653104925,
+   "trustworthy_passed": 0.7201674808094906,
+   "testable": true,
+   "pass": false
+  },
+  "round 7": {
+   "targets": 1900,
+   "untrustworthy": 467,
+   "flagged": 1001,
+   "accuracy": 0.6452631578947369,
+   "untrustworthy_caught": 0.8501070663811563,
+   "trustworthy_passed": 0.578506629448709,
+   "testable": true,
+   "pass": false
+  }
+ },
+ "synthetic possible": {
+  "campaigns": 1900,
+  "round 5": {
+   "targets": 1900,
+   "untrustworthy": 5,
+   "flagged": 27,
+   "accuracy": 0.9873684210526316,
+   "untrustworthy_caught": 0.8,
+   "trustworthy_passed": 0.9878627968337731,
+   "testable": true,
+   "pass": true
+  },
+  "round 7": {
+   "targets": 1900,
+   "untrustworthy": 5,
+   "flagged": 55,
+   "accuracy": 0.9726315789473684,
+   "untrustworthy_caught": 0.8,
+   "trustworthy_passed": 0.9730870712401055,
+   "testable": true,
+   "pass": true
+  }
+ },
+ "synthetic impossible": {
+  "campaigns": 1900,
+  "round 5": {
+   "targets": 1900,
+   "untrustworthy": 12,
+   "flagged": 96,
+   "accuracy": 0.9536842105263158,
+   "untrustworthy_caught": 0.8333333333333334,
+   "trustworthy_passed": 0.9544491525423728,
+   "testable": true,
+   "pass": true
+  },
+  "round 7": {
+   "targets": 1900,
+   "untrustworthy": 12,
+   "flagged": 116,
+   "accuracy": 0.9431578947368421,
+   "untrustworthy_caught": 0.8333333333333334,
+   "trustworthy_passed": 0.9438559322033898,
+   "testable": true,
+   "pass": true
+  }
+ },
+ "synthetic standard, pooled": {
+  "campaigns": 3800,
+  "round 7": {
+   "targets": 3800,
+   "untrustworthy": 17,
+   "flagged": 171,
+   "accuracy": 0.9578947368421052,
+   "untrustworthy_caught": 0.8235294117647058,
+   "trustworthy_passed": 0.9584985461274121,
+   "testable": true,
+   "pass": true
+  }
+ },
+ "rule": {
+  "no harm": {
+   "HFO": true,
+   "butane": false,
+   "MEA": false,
+   "synthetic lumped": false,
+   "synthetic possible": false,
+   "synthetic impossible": false
+  },
+  "gain (pooled standard catch >= 80 %)": true,
+  "adopt": false
+ }
+}

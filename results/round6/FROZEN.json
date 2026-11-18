@@ -1,0 +1,54 @@
+{
+ "frozen_at": "2026-11-11T06:39:00",
+ "test": "Round 6 (design section 17): C4 with the chord-bias discrepancy, once on MEA's non-full campaigns and on fresh synthetic seeds 43000-45999 (per kind)",
+ "variant": "chord",
+ "data_manifest": "data/lab/hfo_mea_files.txt",
+ "data_sha256": "f13e0af9ce0647d44db01a8c2dd336111e4698dbc4df3313733268202b3762f9",
+ "code": [
+  "src\\design.py",
+  "src\\species.py",
+  "src\\lab.py",
+  "src\\fit.py",
+  "src\\kinetics.py",
+  "src\\integrate.py",
+  "src\\data.py",
+  "src\\synthetic.py",
+  "experiments\\round6_confirm.py",
+  "experiments\\round6_dev_c4.py",
+  "experiments\\round4_lab.py",
+  "experiments\\c5_lab.py",
+  "experiments\\round5_flag.py",
+  "experiments\\round2_synthetic.py",
+  "experiments\\v0b_reduction.py",
+  "experiments\\v0c_synthetic.py"
+ ],
+ "code_sha256": "7e2ab549f1d2971c213336f47209230db6072da2eaef7319edf6ea0352c8f4ac",
+ "bars": {
+  "C4": {
+   "coverage_min": 0.85,
+   "median_lo": 0.5,
+   "median_hi": 1.0
+  }
+ },
+ "synthetic": {
+  "lumped": [
+   43000,
+   44000
+  ],
+  "possible": [
+   44000,
+   45000
+  ],
+  "impossible": [
+   45000,
+   46000
+  ],
+  "targets_by_block_of_250": [
+   3100,
+   3600,
+   4500,
+   5000
+  ]
+ },
+ "development": "logs/round6_dev_c4.log"
+}

@@ -1,0 +1,264 @@
+{
+ "C4": {
+  "HFO": {
+   "v1": {
+    "n": 119808,
+    "coverage": 0.9331680689102564,
+    "median_abs_z": 0.57253,
+    "pass": true
+   },
+   "v2": {
+    "n": 119808,
+    "coverage": 0.9317908653846154,
+    "median_abs_z": 0.57266,
+    "pass": true
+   }
+  },
+  "MEA": {
+   "v1": {
+    "n": 89856,
+    "coverage": 0.9577657585470085,
+    "median_abs_z": 0.548045,
+    "pass": true
+   },
+   "v2": {
+    "n": 89856,
+    "coverage": 0.9556957799145299,
+    "median_abs_z": 0.5428949999999999,
+    "pass": true
+   }
+  },
+  "butane": {
+   "v1": {
+    "n": 194361,
+    "coverage": 0.9462958103734803,
+    "median_abs_z": 0.5773,
+    "pass": true
+   },
+   "v2": {
+    "n": 194361,
+    "coverage": 0.9476952680836176,
+    "median_abs_z": 0.57,
+    "pass": true
+   }
+  },
+  "synthetic lumped": {
+   "v1": {
+    "n": 4690,
+    "coverage": 0.9326226012793177,
+    "median_abs_z": 0.7492,
+    "pass": true
+   },
+   "v2": {
+    "n": 4690,
+    "coverage": 0.9388059701492537,
+    "median_abs_z": 0.7954,
+    "pass": true
+   }
+  },
+  "synthetic possible": {
+   "v1": {
+    "n": 4641,
+    "coverage": 0.957983193277311,
+    "median_abs_z": 0.6274,
+    "pass": true
+   },
+   "v2": {
+    "n": 4641,
+    "coverage": 0.9646627881922,
+    "median_abs_z": 0.6051,
+    "pass": true
+   }
+  },
+  "synthetic impossible": {
+   "v1": {
+    "n": 4744,
+    "coverage": 0.9487774030354131,
+    "median_abs_z": 0.6274500000000001,
+    "pass": true
+   },
+   "v2": {
+    "n": 4744,
+    "coverage": 0.9605817875210793,
+    "median_abs_z": 0.6031500000000001,
+    "pass": true
+   }
+  }
+ },
+ "C6": {
+  "HFO": {
+   "v1": {
+    "targets": 1565,
+    "untrustworthy": 123,
+    "flagged": 206,
+    "accuracy": 0.9456869009584664,
+    "untrustworthy_caught": 0.991869918699187,
+    "trustworthy_passed": 0.941747572815534,
+    "testable": true,
+    "pass": true
+   },
+   "v2": {
+    "targets": 1565,
+    "untrustworthy": 118,
+    "flagged": 207,
+    "accuracy": 0.94185303514377,
+    "untrustworthy_caught": 0.9915254237288136,
+    "trustworthy_passed": 0.9378023496890118,
+    "testable": true,
+    "pass": true
+   }
+  },
+  "MEA": {
+   "v1": {
+    "targets": 1565,
+    "untrustworthy": 265,
+    "flagged": 366,
+    "accuracy": 0.9137380191693291,
+    "untrustworthy_caught": 0.9358490566037736,
+    "trustworthy_passed": 0.9092307692307692,
+    "testable": true,
+    "pass": true
+   },
+   "v2": {
+    "targets": 1565,
+    "untrustworthy": 251,
+    "flagged": 374,
+    "accuracy": 0.9137380191693291,
+    "untrustworthy_caught": 0.9760956175298805,
+    "trustworthy_passed": 0.9018264840182648,
+    "testable": true,
+    "pass": true
+   }
+  },
+  "butane": {
+   "v1": {
+    "targets": 2790,
+    "untrustworthy": 4,
+    "flagged": 152,
+    "accuracy": 0.9469534050179211,
+    "untrustworthy_caught": 1.0,
+    "trustworthy_passed": 0.9468772433596554,
+    "testable": false,
+    "pass": null
+   },
+   "v2": {
+    "targets": 2790,
+    "untrustworthy": 0,
+    "flagged": 61,
+    "accuracy": 0.9781362007168459,
+    "untrustworthy_caught": null,
+    "trustworthy_passed": 0.9781362007168459,
+    "testable": false,
+    "pass": null
+   }
+  },
+  "synthetic lumped": {
+   "v1": {
+    "targets": 3800,
+    "untrustworthy": 959,
+    "flagged": 1760,
+    "accuracy": 0.7128947368421052,
+    "untrustworthy_caught": 0.848800834202294,
+    "trustworthy_passed": 0.6670186554030271,
+    "testable": true,
+    "pass": false
+   },
+   "v2": {
+    "targets": 3800,
+    "untrustworthy": 499,
+    "flagged": 490,
+    "accuracy": 0.865,
+    "untrustworthy_caught": 0.47695390781563124,
+    "trustworthy_passed": 0.9236594971220842,
+    "testable": true,
+    "pass": false
+   }
+  },
+  "synthetic possible": {
+   "v1": {
+    "targets": 3800,
+    "untrustworthy": 3,
+    "flagged": 48,
+    "accuracy": 0.986578947368421,
+    "untrustworthy_caught": 0.0,
+    "trustworthy_passed": 0.9873584408743745,
+    "testable": false,
+    "pass": null
+   },
+   "v2": {
+    "targets": 3800,
+    "untrustworthy": 2,
+    "flagged": 47,
+    "accuracy": 0.9876315789473684,
+    "untrustworthy_caught": 0.5,
+    "trustworthy_passed": 0.9878883622959452,
+    "testable": false,
+    "pass": null
+   }
+  },
+  "synthetic impossible": {
+   "v1": {
+    "targets": 3800,
+    "untrustworthy": 23,
+    "flagged": 203,
+    "accuracy": 0.9505263157894737,
+    "untrustworthy_caught": 0.8260869565217391,
+    "trustworthy_passed": 0.95128408790045,
+    "testable": true,
+    "pass": true
+   },
+   "v2": {
+    "targets": 3800,
+    "untrustworthy": 21,
+    "flagged": 180,
+    "accuracy": 0.955,
+    "untrustworthy_caught": 0.7142857142857143,
+    "trustworthy_passed": 0.9563376554644085,
+    "testable": true,
+    "pass": false
+   }
+  },
+  "synthetic standard, pooled": {
+   "v1": {
+    "targets": 7600,
+    "untrustworthy": 26,
+    "flagged": 251,
+    "accuracy": 0.9685526315789473,
+    "untrustworthy_caught": 0.7307692307692307,
+    "trustworthy_passed": 0.9693688935833114,
+    "testable": true,
+    "pass": false
+   },
+   "v2": {
+    "targets": 7600,
+    "untrustworthy": 23,
+    "flagged": 227,
+    "accuracy": 0.9713157894736842,
+    "untrustworthy_caught": 0.6956521739130435,
+    "trustworthy_passed": 0.9721525669790154,
+    "testable": true,
+    "pass": false
+   }
+  }
+ },
+ "rule": {
+  "C4 no harm (H5' passes)": {
+   "HFO": true,
+   "MEA": true,
+   "butane": true,
+   "synthetic lumped": true,
+   "synthetic possible": true,
+   "synthetic impossible": true
+  },
+  "C6 no harm (accuracy v2 >= v1)": {
+   "HFO": false,
+   "MEA": true,
+   "butane": true,
+   "synthetic lumped": true,
+   "synthetic possible": true,
+   "synthetic impossible": true
+  },
+  "gain (pooled standard catch >= 80 %)": false,
+  "adopt": false
+ }
+}

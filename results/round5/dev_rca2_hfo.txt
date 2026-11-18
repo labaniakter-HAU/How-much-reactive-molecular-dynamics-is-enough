@@ -1,0 +1,65 @@
+== fold T* = 2500 K: training events 107205
+   species tracked in every run (round 4): 31; events with model reactants 61.8% (with exposure in their own run 61.8%)
+      key (reactants, products): 1288 reactions; top 80 cover 51.7% of all events; 95 % of its own needs 238
+      key reactant set:          521 reactions; top 80 cover 56.5%, top 40 49.4%; 95 % of its own needs 107
+   species tracked in all 4 training temperatures: 53; events with model reactants 74.8% (with exposure in their own run 72.4%)
+      key (reactants, products): 2151 reactions; top 80 cover 56.7% of all events; 95 % of its own needs 461
+      key reactant set:          927 reactions; top 80 cover 62.8%, top 40 53.5%; 95 % of its own needs 189
+   species tracked in >= 2 training temperatures: 70; events with model reactants 81.1% (with exposure in their own run 75.0%)
+      key (reactants, products): 2813 reactions; top 80 cover 57.6% of all events; 95 % of its own needs 670
+      key reactant set:          1301 reactions; top 80 cover 64.9%, top 40 54.2%; 95 % of its own needs 262
+   species tracked in >= 1 training run: 85; events with model reactants 87.0% (with exposure in their own run 75.6%)
+      key (reactants, products): 3275 reactions; top 80 cover 60.3% of all events; 95 % of its own needs 803
+      key reactant set:          1570 reactions; top 80 cover 68.1%, top 40 56.5%; 95 % of its own needs 304
+== fold T* = 2750 K: training events 104340
+   species tracked in every run (round 4): 31; events with model reactants 62.3% (with exposure in their own run 62.3%)
+      key (reactants, products): 1256 reactions; top 80 cover 52.4% of all events; 95 % of its own needs 232
+      key reactant set:          515 reactions; top 80 cover 57.1%, top 40 50.1%; 95 % of its own needs 106
+   species tracked in all 4 training temperatures: 51; events with model reactants 75.3% (with exposure in their own run 72.6%)
+      key (reactants, products): 2064 reactions; top 80 cover 57.8% of all events; 95 % of its own needs 440
+      key reactant set:          908 reactions; top 80 cover 63.9%, top 40 54.6%; 95 % of its own needs 181
+   species tracked in >= 2 training temperatures: 73; events with model reactants 81.8% (with exposure in their own run 75.5%)
+      key (reactants, products): 2835 reactions; top 80 cover 58.3% of all events; 95 % of its own needs 691
+      key reactant set:          1335 reactions; top 80 cover 65.4%, top 40 54.9%; 95 % of its own needs 268
+   species tracked in >= 1 training run: 92; events with model reactants 87.6% (with exposure in their own run 76.2%)
+      key (reactants, products): 3286 reactions; top 80 cover 61.0% of all events; 95 % of its own needs 821
+      key reactant set:          1600 reactions; top 80 cover 68.7%, top 40 57.2%; 95 % of its own needs 311
+== fold T* = 3000 K: training events 101613
+   species tracked in every run (round 4): 31; events with model reactants 62.4% (with exposure in their own run 62.4%)
+      key (reactants, products): 1240 reactions; top 80 cover 52.5% of all events; 95 % of its own needs 227
+      key reactant set:          511 reactions; top 80 cover 57.2%, top 40 50.3%; 95 % of its own needs 105
+   species tracked in all 4 training temperatures: 52; events with model reactants 75.5% (with exposure in their own run 73.0%)
+      key (reactants, products): 2053 reactions; top 80 cover 58.0% of all events; 95 % of its own needs 435
+      key reactant set:          913 reactions; top 80 cover 64.1%, top 40 54.8%; 95 % of its own needs 180
+   species tracked in >= 2 training temperatures: 72; events with model reactants 82.4% (with exposure in their own run 76.0%)
+      key (reactants, products): 2749 reactions; top 80 cover 59.4% of all events; 95 % of its own needs 664
+      key reactant set:          1311 reactions; top 80 cover 66.2%, top 40 56.0%; 95 % of its own needs 263
+   species tracked in >= 1 training run: 91; events with model reactants 86.6% (with exposure in their own run 76.5%)
+      key (reactants, products): 3144 reactions; top 80 cover 61.1% of all events; 95 % of its own needs 787
+      key reactant set:          1541 reactions; top 80 cover 68.1%, top 40 57.2%; 95 % of its own needs 305
+== fold T* = 3250 K: training events 97010
+   species tracked in every run (round 4): 31; events with model reactants 62.3% (with exposure in their own run 62.3%)
+      key (reactants, products): 1238 reactions; top 80 cover 52.7% of all events; 95 % of its own needs 220
+      key reactant set:          518 reactions; top 80 cover 57.3%, top 40 50.6%; 95 % of its own needs 104
+   species tracked in all 4 training temperatures: 49; events with model reactants 73.9% (with exposure in their own run 71.7%)
+      key (reactants, products): 1939 reactions; top 80 cover 57.6% of all events; 95 % of its own needs 400
+      key reactant set:          854 reactions; top 80 cover 63.3%, top 40 54.6%; 95 % of its own needs 169
+   species tracked in >= 2 training temperatures: 71; events with model reactants 81.3% (with exposure in their own run 74.4%)
+      key (reactants, products): 2662 reactions; top 80 cover 59.3% of all events; 95 % of its own needs 621
+      key reactant set:          1245 reactions; top 80 cover 66.0%, top 40 55.9%; 95 % of its own needs 242
+   species tracked in >= 1 training run: 91; events with model reactants 85.6% (with exposure in their own run 75.4%)
+      key (reactants, products): 3194 reactions; top 80 cover 60.2% of all events; 95 % of its own needs 797
+      key reactant set:          1583 reactions; top 80 cover 67.2%, top 40 56.7%; 95 % of its own needs 309
+== fold T* = 3500 K: training events 94092
+   species tracked in every run (round 4): 31; events with model reactants 62.2% (with exposure in their own run 62.2%)
+      key (reactants, products): 1116 reactions; top 80 cover 53.2% of all events; 95 % of its own needs 210
+      key reactant set:          484 reactions; top 80 cover 57.5%, top 40 51.1%; 95 % of its own needs 101
+   species tracked in all 4 training temperatures: 49; events with model reactants 73.9% (with exposure in their own run 71.9%)
+      key (reactants, products): 1784 reactions; top 80 cover 58.2% of all events; 95 % of its own needs 384
+      key reactant set:          811 reactions; top 80 cover 63.7%, top 40 55.3%; 95 % of its own needs 166
+   species tracked in >= 2 training temperatures: 70; events with model reactants 80.4% (with exposure in their own run 74.2%)
+      key (reactants, products): 2419 reactions; top 80 cover 59.8% of all events; 95 % of its own needs 584
+      key reactant set:          1163 reactions; top 80 cover 66.0%, top 40 56.5%; 95 % of its own needs 236
+   species tracked in >= 1 training run: 85; events with model reactants 84.6% (with exposure in their own run 74.7%)
+      key (reactants, products): 2767 reactions; top 80 cover 61.0% of all events; 95 % of its own needs 693
+      key reactant set:          1361 reactions; top 80 cover 67.8%, top 40 57.5%; 95 % of its own needs 276

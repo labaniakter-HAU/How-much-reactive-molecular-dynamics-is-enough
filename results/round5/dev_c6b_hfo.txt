@@ -1,0 +1,18 @@
+event-weighted RMS slope b of the full-campaign lines per fold: [10.3  9.8  9.8  9.8  9.9]
+campaigns 1565, bad 123
+        old (inf -> flagged): AUC 0.929; best accuracy 0.9067; with caught >= 0.85: 0.8927 at cut 0.631 | cut 0.600: acc 0.8843 caught 0.959 passed 0.878 | cut 0.693: acc 0.8875 caught 0.772 passed 0.897
+     design, B 10, gamma0 35: AUC 0.986; best accuracy 0.9751; with caught >= 0.85: 0.9751 at cut 0.737 | cut 0.600: acc 0.9534 caught 0.959 passed 0.953 | cut 0.693: acc 0.9674 caught 0.943 passed 0.969
+     design, B 10, gamma0 70: AUC 0.988; best accuracy 0.9802; with caught >= 0.85: 0.9802 at cut 0.783 | cut 0.600: acc 0.9406 caught 1.000 passed 0.936 | cut 0.693: acc 0.9546 caught 0.992 passed 0.951
+    design, B 10, gamma0 140: AUC 0.979; best accuracy 0.9661; with caught >= 0.85: 0.9661 at cut 0.793 | cut 0.600: acc 0.9137 caught 1.000 passed 0.906 | cut 0.693: acc 0.9534 caught 1.000 passed 0.949
+     design, B 15, gamma0 35: AUC 0.987; best accuracy 0.9751; with caught >= 0.85: 0.9751 at cut 0.738 | cut 0.600: acc 0.9412 caught 0.959 passed 0.940 | cut 0.693: acc 0.9553 caught 0.943 passed 0.956
+     design, B 15, gamma0 70: AUC 0.990; best accuracy 0.9802; with caught >= 0.85: 0.9802 at cut 0.783 | cut 0.600: acc 0.9284 caught 1.000 passed 0.922 | cut 0.693: acc 0.9425 caught 0.992 passed 0.938
+    design, B 15, gamma0 140: AUC 0.986; best accuracy 0.9725; with caught >= 0.85: 0.9725 at cut 0.940 | cut 0.600: acc 0.9016 caught 1.000 passed 0.893 | cut 0.693: acc 0.9412 caught 1.000 passed 0.936
+     design, B 20, gamma0 35: AUC 0.983; best accuracy 0.9649; with caught >= 0.85: 0.9629 at cut 0.737 | cut 0.600: acc 0.9412 caught 0.959 passed 0.940 | cut 0.693: acc 0.9553 caught 0.943 passed 0.956
+     design, B 20, gamma0 70: AUC 0.986; best accuracy 0.9681; with caught >= 0.85: 0.9681 at cut 0.783 | cut 0.600: acc 0.9284 caught 1.000 passed 0.922 | cut 0.693: acc 0.9425 caught 0.992 passed 0.938
+    design, B 20, gamma0 140: AUC 0.986; best accuracy 0.9681; with caught >= 0.85: 0.9604 at cut 0.940 | cut 0.600: acc 0.9016 caught 1.000 passed 0.893 | cut 0.693: acc 0.9412 caught 1.000 passed 0.936
+     design, B 25, gamma0 35: AUC 0.981; best accuracy 0.9629; with caught >= 0.85: 0.9629 at cut 0.737 | cut 0.600: acc 0.9412 caught 0.959 passed 0.940 | cut 0.693: acc 0.9553 caught 0.943 passed 0.956
+     design, B 25, gamma0 70: AUC 0.987; best accuracy 0.9681; with caught >= 0.85: 0.9681 at cut 0.783 | cut 0.600: acc 0.9284 caught 1.000 passed 0.922 | cut 0.693: acc 0.9425 caught 0.992 passed 0.938
+    design, B 25, gamma0 140: AUC 0.985; best accuracy 0.9687; with caught >= 0.85: 0.9604 at cut 0.940 | cut 0.600: acc 0.9016 caught 1.000 passed 0.893 | cut 0.693: acc 0.9412 caught 1.000 passed 0.936
+     design, B 30, gamma0 35: AUC 0.979; best accuracy 0.9629; with caught >= 0.85: 0.9629 at cut 0.737 | cut 0.600: acc 0.9118 caught 0.959 passed 0.908 | cut 0.693: acc 0.9553 caught 0.943 passed 0.956
+     design, B 30, gamma0 70: AUC 0.983; best accuracy 0.9681; with caught >= 0.85: 0.9681 at cut 0.783 | cut 0.600: acc 0.8990 caught 1.000 passed 0.890 | cut 0.693: acc 0.9425 caught 0.992 passed 0.938
+    design, B 30, gamma0 140: AUC 0.985; best accuracy 0.9687; with caught >= 0.85: 0.9604 at cut 0.940 | cut 0.600: acc 0.8722 caught 1.000 passed 0.861 | cut 0.693: acc 0.9412 caught 1.000 passed 0.936

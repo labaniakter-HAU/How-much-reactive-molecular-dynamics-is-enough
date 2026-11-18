@@ -1,0 +1,65 @@
+{
+ "C4 lumped": {
+  "n": 23503,
+  "coverage": 0.7875590350168064,
+  "median_abs_z": 0.7994,
+  "pass": false
+ },
+ "C4 possible": {
+  "n": 23362,
+  "coverage": 0.9623747966783666,
+  "median_abs_z": 0.5847,
+  "pass": true
+ },
+ "C4 impossible": {
+  "n": 23617,
+  "coverage": 0.9485963500868019,
+  "median_abs_z": 0.6217,
+  "pass": true
+ },
+ "C6 all": {
+  "targets": 57000,
+  "untrustworthy": 5515,
+  "flagged": 12947,
+  "accuracy": 0.842561403508772,
+  "untrustworthy_caught": 0.8601994560290118,
+  "trustworthy_passed": 0.8406720404001166,
+  "testable": true,
+  "pass": false
+ },
+ "C6 lumped (descriptive)": {
+  "targets": 19000,
+  "untrustworthy": 5339,
+  "flagged": 11222,
+  "accuracy": 0.6126842105263158,
+  "untrustworthy_caught": 0.8617718673908972,
+  "trustworthy_passed": 0.5153356269672791,
+  "testable": true,
+  "pass": false
+ },
+ "C6 possible (descriptive)": {
+  "targets": 19000,
+  "untrustworthy": 4,
+  "flagged": 464,
+  "accuracy": 0.9754736842105263,
+  "untrustworthy_caught": 0.25,
+  "trustworthy_passed": 0.9756264476731944,
+  "testable": false,
+  "pass": null
+ },
+ "C6 impossible (descriptive)": {
+  "targets": 19000,
+  "untrustworthy": 172,
+  "flagged": 1261,
+  "accuracy": 0.9395263157894737,
+  "untrustworthy_caught": 0.8255813953488372,
+  "trustworthy_passed": 0.9405672402804334,
+  "testable": true,
+  "pass": true
+ },
+ "networks": {
+  "lumped": 1000,
+  "possible": 1000,
+  "impossible": 1000
+ }
+}

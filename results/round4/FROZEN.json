@@ -1,0 +1,61 @@
+{
+ "frozen_at": "2026-11-10T13:10:40",
+ "test": "Round 4 (design section 15): every claim once on the same real data (lab HFO/MEA, 10 folds), plus C4/C6 on C5's 3000 round-3 synthetic networks",
+ "data_manifest": "data/lab/hfo_mea_files.txt",
+ "data_sha256": "f13e0af9ce0647d44db01a8c2dd336111e4698dbc4df3313733268202b3762f9",
+ "code": [
+  "src\\data.py",
+  "src\\design.py",
+  "src\\fit.py",
+  "src\\integrate.py",
+  "src\\kinetics.py",
+  "src\\lab.py",
+  "src\\metrics.py",
+  "src\\species.py",
+  "experiments\\c5_lab.py",
+  "experiments\\round2_confirm.py",
+  "experiments\\round2_score.py",
+  "experiments\\v4_h0r.py",
+  "experiments\\round4_lab.py"
+ ],
+ "code_sha256": "deab9487e9b6a4be0417956ef8a9b5cafe268e7ba1ce782e94c0607a535b5c2f",
+ "synthetic_code": [
+  "src\\design.py",
+  "src\\fit.py",
+  "src\\integrate.py",
+  "src\\kinetics.py",
+  "src\\synthetic.py",
+  "src\\data.py",
+  "experiments\\round2_synthetic.py",
+  "experiments\\v0b_reduction.py",
+  "experiments\\v0c_synthetic.py",
+  "experiments\\round2_score.py",
+  "experiments\\round4_synth_score.py"
+ ],
+ "synthetic_code_sha256": "b90f16c2956fe8af02aa980ab6e35ea457ef4c1e3548a23bfc74c62633e6433e",
+ "folds": "HFO and MEA x held-out T* in 2500, 2750, 3000, 3250, 3500 K; train 16 runs, test 4",
+ "replicates": "C1 100 bootstrap resamples per fold (rng (int(T*) + chem index, i)); C4-C6 C5's 100 random campaigns per budget (rng int(T*) + chem index)",
+ "model": "species-level counted rates (design.fit_lines), 80 anchors per fold; predictions scipy BDF rtol 1e-6 atol 1e-8; fits RK4 1 ps grid x 8 substeps, L-BFGS 5 rounds, lambda 0",
+ "bars": {
+  "C1_ratio": 0.5,
+  "C2_firing_ratio": 0.9,
+  "C2_error_ratio": 1.1,
+  "C3_error_ratio": 1.5,
+  "C3_size_factor": 10.0,
+  "C4": {
+   "coverage_min": 0.85,
+   "median_lo": 0.5,
+   "median_hi": 1.0
+  },
+  "C6": {
+   "overall": 0.9,
+   "per_class": 0.8,
+   "min_per_class": 5
+  },
+  "C6_label_rms": 0.6931471805599453,
+  "C6_flag_err": 0.6,
+  "C6_flag_dom": 3.0
+ },
+ "known_before_running": "C3 size bar fails on MEA by construction (full networks 385-463 reactions = 4.8-5.8 x 80 anchors); HFO 13.9-16.1 x",
+ "verdict": "each claim's own bar, pooled over the 10 folds; failures reported, no redesign on these data"
+}

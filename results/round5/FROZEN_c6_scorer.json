@@ -1,0 +1,6 @@
+{
+ "frozen_at": "2026-11-11T04:50:04",
+ "file": "experiments/round5_score_syn.py",
+ "sha256": "bfe0adb183113f2f61926b6d4267e637a3ea4639c617bc97c65d31bb57b4be18",
+ "note": "v2: adds a check that each file holds the kinds the protocol states; written before any confirmation block was read (v1 in FROZEN_c6_scorer_v1.json)"
+}

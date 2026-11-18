@@ -1,0 +1,11 @@
+{
+ "split": {
+  "fit_T": "4500,5000",
+  "select_T": "4000",
+  "test_T": "3100,3200,3300,3400,3500"
+ },
+ "reactions": 44,
+ "reactions_with_b": 44,
+ "test_error (b = 0)": 0.17955682785241345,
+ "test_error (b free)": 0.23373489526336885
+}
